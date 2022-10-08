@@ -4,7 +4,7 @@ body {
     font-family:'helvetica'; 
     border: 1px solid lightgray;
     border-radius: 8px;
-    margin: 30px 280px 80px 280px;
+    margin: 30px 50px 70px 50px;
     background-image: url(./images/bg800bulbs.jpg);
 
    }
@@ -17,13 +17,14 @@ body {
    height: 20px;
    }
    #header {
-      
+   text-align: right !important;
    display: flex;
-   flex-direction: row;
+   flex-direction:row;
    justify-content: space-evenly;
-   width:60%;
+   
+   width:100%;
    font-size: 14px;
-   margin-left: 320px
+
    
    }
     
